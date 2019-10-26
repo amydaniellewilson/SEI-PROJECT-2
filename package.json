@@ -1,6 +1,10 @@
 {
   "name": "basic-react-webpack-setup",
   "version": "1.0.0",
+  "engines": {
+  "yarn": "1.19.1",
+  "node": "12.12.0"
+},
   "description": "",
   "main": "index.js",
   "scripts": {

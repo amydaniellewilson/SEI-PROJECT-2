@@ -7,12 +7,8 @@ class Home extends React.Component {
     return (
       <section className="hero is-fullheight">
         <div className="hero-body">
-          <p className="home-title title is-1 ">
-      Movie Quiz
-          </p>
-          <Link to="/quiz" className="button is-medium is-white">Start</Link>
+          <Link to="/quiz" className="start">Start</Link>
         </div>
-        <footer className="home-footer">Amy & Sim &hearts;</footer>
       </section>
     )
   }
@@ -21,8 +17,3 @@ class Home extends React.Component {
 
 
 export default Home
-
-
-// <div>
-//   <audio className="song" src="../assets/20th Century Fox Intro Full-HD 1080p.mp3"></audio>
-// </div>

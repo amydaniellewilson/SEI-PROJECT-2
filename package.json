@@ -1,5 +1,5 @@
 {
-  "homepage": "http://amywilson.net/SEI-PROJECT-2/",
+  
   "name": "basic-react-webpack-setup",
   "version": "1.0.0",
   "description": "",
@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack-dev-server --mode=development",
     "build": "webpack -p",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn build"
+
   },
   "author": "",
   "license": "ISC",

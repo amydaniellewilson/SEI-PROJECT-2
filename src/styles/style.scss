@@ -14,7 +14,6 @@ section.hero {
       font-family: 'Quicksand', sans-serif;
       color: white;
       font-size: 100px;
-      // background: white;
       border-radius: 12px;
       font-weight: bold;
     }
@@ -45,15 +44,9 @@ section.hero {
   font-size: 40px;
 }
 
-.home-footer {
-  text-align: center;
-  color: white;
-  background: midnightblue;
-}
-
 html {
   height: 100vh;
-  background: pink;
+  // background: pink;
 }
 
 .result-title {
@@ -85,5 +78,5 @@ html {
   text-align: center;
   margin-top: 17%;
   font-weight: bold;
-  color: navy;
+  color: black;
 }

@@ -2,15 +2,13 @@
   "name": "basic-react-webpack-setup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "engines": {
-    "yarn": "1.19.1"
-  }
+  "main": "index.js"
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack-dev-server --mode=development",
     "build": "webpack -p",
-    "predeploy": "yarn build"
+    "predeploy": "yarn build",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
